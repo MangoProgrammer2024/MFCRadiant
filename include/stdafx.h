@@ -28,5 +28,7 @@ void WINAPI * mLoadApi(CWnd * wnd);
 float winTick(WINAPI*);
 //winstring
 typedef std::string cstr;
+//return directory
+void returnDirectory(cstr * str){ cstr * appDirectory; return appDirectory; };
 //endif
 #endif
