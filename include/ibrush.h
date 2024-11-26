@@ -19,12 +19,27 @@ public:
   ~EBrush();
  enum EBrushType{
    //id brushes
-   EQuakeBrush = 0, EDoomBrush, EDoomIIBrush,EDoomPlusBrush,
-   EDoomEternalBrush, ERageBrush, EWolfensteinBrush, EQuakeIIBrush,
-   EQuakeIIIBrush, EDoomIIIBrush,
+   EQuakeBrush = 0, 
+   EDoomBrush, 
+   EDoomIIBrush,
+   EDoomPlusBrush,
+   EDoomEternalBrush,
+   EWolfensteinBrush, 
+   EQuakeIIBrush,
+   EQuakeIIIBrush, 
+   EDoomIIIBrush,
+   EPortalIIBrush,
    //cod brushes
-   EBlackOpsVIBrush, EMWIIBrush, EGhostsBrush, EAdvancedWarfareBrush, EBlackOpsIIBrush, EInfiniteWarfareBrush
-   //
+   EBlackOpsVIBrush,
+   EMWIIBrush,
+   EGhostsBrush,
+   EAdvancedWarfareBrush,
+   EBlackOpsIIBrush,
+   EInfiniteWarfareBrush,
+   //sw brushes
+   EStarWarsJediSurvivorBrush,
+   //misc brushes
+   EMiscBrush
  };
 
 };
