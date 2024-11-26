@@ -15,6 +15,8 @@
 #define MFC_RADIO_BUTTON 011
 #define MFC_LABEL 012
 #define MFC_GRID 013
+#define MFC_ICON 014
+#define MFC_ERROR 015
 //
 class MfcTool{
 public:
