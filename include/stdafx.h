@@ -23,7 +23,7 @@ CBitmap * wnd_bmp; const char const* bmpIcon;
 CDialog * wnd_dlg;
 //winapi tags
 void WINAPI * mLoadApi(CWnd * wnd);
-float * winTick(WINAPI*);
+float winTick(WINAPI*);
 //winstring
 typedef std::string cstr;
 //endif
