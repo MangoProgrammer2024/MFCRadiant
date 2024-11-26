@@ -4,9 +4,9 @@
 
 int g_nBrushId = 0;
 //quake brush name
-const char * BrushName(EBrush * e){
+const char * QuakeBrush(EBrush * e){
   static char eBuff[1024];
-    if(g_nBrushId = 0){
+    if(/*brushpreferences.gametype = "Quake*/){
       e->EBrushType == EQuakeBrush;
       printf("%c", "BrushName");
     };
