@@ -21,6 +21,7 @@ CButton * wnd_button;
 CSplitter * wnd_splitter;
 CMenu * wnd_menu;
 CBitmap * wnd_bmp; 
+CDockablePane * wnd_pane;
 const char const* bmpIcon;
 CDialog * wnd_dlg;
 //winapi tags
