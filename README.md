@@ -1,2 +1,2 @@
 # MFCRadiant
-Radiant level editor rebuilt with MFC from GtkRadiant
+Radiant level editor rebuilt with MFC
