@@ -19,6 +19,7 @@ CPanel * wnd_panel;
 CToolbar * wnd_toolbar;
 CButton * wnd_button;
 CSplitter * wnd_splitter;
+CBitmap * wnd_bmp;
 //winapi tags
 void WINAPI * mLoadApi(CWnd * wnd);
 float * winTick(WINAPI*);
