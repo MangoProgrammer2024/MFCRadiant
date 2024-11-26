@@ -19,6 +19,7 @@ CPanel * wnd_panel;
 CToolbar * wnd_toolbar;
 CButton * wnd_button;
 CSplitter * wnd_splitter;
+CMenu * wnd_menu;
 CBitmap * wnd_bmp; 
 const char const* bmpIcon;
 CDialog * wnd_dlg;
