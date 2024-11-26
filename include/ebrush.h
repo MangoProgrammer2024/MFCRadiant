@@ -17,6 +17,9 @@ public:
 
  EBrush();
   ~EBrush();
+
+int EBrushId;//equal to a EBrushType
+ //brush types supported
  enum EBrushType{
    //id brushes
    EQuakeBrush = 0, 
@@ -41,6 +44,8 @@ public:
    //misc brushes
    EMiscBrush
  };
+
+bool e_LoadType(EBrush * brush);
 
 };
 
