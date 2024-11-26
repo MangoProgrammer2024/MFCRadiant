@@ -1,0 +1,2 @@
+GAME = "Quake"
+GAME_DIRECTORY = @"C:"
