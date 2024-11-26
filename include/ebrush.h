@@ -45,7 +45,7 @@ int EBrushId;//equal to a EBrushType
    EMiscBrush
  };
 
-bool e_LoadType(EBrush * brush);
+bool eLoadType(EBrush * brush);
 
 };
 
