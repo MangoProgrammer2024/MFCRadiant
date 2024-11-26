@@ -1,12 +1,32 @@
-#ifndef IBRUSHTABLE_H
-#define IBRUSHTABLE_H
-class IBrushTable{
+#ifndef EBRUSHTABLE_H
+#define EBRUSHTABLE_H
+class EBrushTable{
 public:
 
- IBrushTable();
-  ~IBrushTable();
+ EBrushTable();
+  ~EBrushTable();
   typedef float ifloat;
-  IBrushTable * table;
+  EBrushTable * table;
   ifloat MAX_BRUSH_NUM[10000];
 };
+#endif
+#ifndef EBRUSH_H
+#define EBRUSH_H
+class EBrush{
+public:
+
+ EBrush();
+  ~EBrush();
+ enum EBrushType{
+   //id brushes
+   EQuakeBrush = 0, EDoomBrush, EDoomIIBrush,EDoomPlusBrush,
+   EDoomEternalBrush, ERageBrush, EWolfensteinBrush, EQuakeIIBrush,
+   EQuakeIIIBrush, EDoomIIIBrush,
+   //cod brushes
+   EBlackOpsVIBrush, EMWIIBrush, EGhostsBrush, EAdvancedWarfareBrush, EBlackOpsIIBrush, EInfiniteWarfareBrush
+   //
+ };
+
+};
+
 #endif
